@@ -6,7 +6,7 @@
 	url = git://github.com/candy-chat/strophejs.git
 [submodule "libs/strophejs-plugins"]
 	path = libs/strophejs-plugins
-	url = git://github.com/metajack/strophejs-plugins.git
+	url = git://github.com/mweibel/strophejs-plugins.git
 [submodule "libs/mustache.js"]
 	path = libs/mustache.js
 	url = git://github.com/janl/mustache.js.git
