@@ -114,7 +114,7 @@ Candy.Core = (function(self, Strophe, $) {
 
 		_addNamespaces();
 		// Connect to BOSH service
-		_connection = new Strophe.Connection(_service);
+		_connection = new Strophe.Connection({protocol: new Strophe.Websocket(_service)});
 		_connection.rawInput = self.rawInput.bind(self);
 		_connection.rawOutput = self.rawOutput.bind(self);
 
