@@ -42,6 +42,7 @@ Candy.Core = (function(self, Strophe, $) {
 		 * Options:
 		 *   (Boolean) debug - Debug (Default: false)
 		 *   (Array|Boolean) autojoin - Autojoin these channels. When boolean true, do not autojoin, wait if the server sends something.
+		 *   (String) websocket - Websocket service: If specified tries to connect to the websocket service
 		 */
 		_options = {
 			/** Boolean: autojoin
@@ -49,7 +50,8 @@ Candy.Core = (function(self, Strophe, $) {
 			 * You may want to define an array of rooms to autojoin: `['room1@conference.host.tld', 'room2...]` (ejabberd, Openfire, ...)
 			 */
 			autojoin: true,
-			debug: false
+			debug: false,
+			websocket: ""
 		},
 
 		/** PrivateFunction: _addNamespace
@@ -113,8 +115,12 @@ Candy.Core = (function(self, Strophe, $) {
 		}
 
 		_addNamespaces();
-		// Connect to BOSH service
-		_connection = new Strophe.Connection({protocol: new Strophe.Websocket(_service)});
+		// Connect to BOSH/WebSocket service
+		if (_options.websocket !== "" && (window.WebSocket || window.MozWebSocket)) {
+			_connection = new Strophe.Connection({protocol: new Strophe.Websocket(_options.websocket)});
+		} else {
+			_connection = new Strophe.Connection({protocol: new Strophe.Bosh(_service)});
+		}
 		_connection.rawInput = self.rawInput.bind(self);
 		_connection.rawOutput = self.rawOutput.bind(self);
 
