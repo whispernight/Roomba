@@ -524,7 +524,7 @@ Strophe = {
      *  The version of the Strophe library. Unreleased builds will have
      *  a version of head-HASH where HASH is a partial revision.
      */
-    VERSION: "51e2a54",
+    VERSION: "7f98d80",
 
     /** Constants: XMPP Namespace Constants
      *  Common namespace constants from the XMPP RFCs and XEPs.
@@ -2248,11 +2248,9 @@ Strophe.Connection.prototype = {
 		// Now, the connection stuff. Technically, these should probably be handlers too, but it seems that they're not currently.
 		var mechanisms = elem.getElementsByTagName("mechanism");
         var i, mech, auth_str, hashed_auth_str;
-		console.log(mechanisms);
         if (mechanisms.length > 0) {
             for (i = 0; i < mechanisms.length; i++) {
                 mech = Strophe.getText(mechanisms[i]);
-				console.log(mech);
                 if (mech == 'DIGEST-MD5') {
                     do_sasl_digest_md5 = true;
                 } else if (mech == 'PLAIN') {
@@ -2262,13 +2260,10 @@ Strophe.Connection.prototype = {
                 }
             }
         } 
-		console.log(do_sasl_digest_md5, do_sasl_plain, do_sasl_anonymous);
 
 
 		if(this.status == Strophe.Status.CONNECTING) {
 			this.changeConnectStatus(Strophe.Status.AUTHENTICATING, null);
-			console.log(Strophe.getNodeFromJid(this.jid), do_sasl_anonymous);
-			console.log(do_sasl_digest_md5, do_sasl_plain);
 			if (Strophe.getNodeFromJid(this.jid) === null && do_sasl_anonymous) {
 	            this._sasl_success_handler = this._addSysHandler(this._sasl_success_cb.bind(this), null, "success", null, null);
 	            this._sasl_failure_handler = this._addSysHandler(this._sasl_failure_cb.bind(this), null, "failure", null, null);
@@ -3549,11 +3544,17 @@ Strophe.Websocket.prototype = {
 	connect: function(connection) {
 		if(!this.socket) {
 			this.connection 		= connection;
-	        this.socket 			= new WebSocket(this.service, "xmpp");
-		    this.socket.onopen      = this._onOpen.bind(this);
+			if (window.WebSocket) {
+				this.socket 			= new WebSocket(this.service, "xmpp");
+			} else if (window.MozWebSocket) {
+				this.socket 			= new MozWebSocket(this.service, "xmpp");
+			} else {
+				throw("No Websocket support");
+			}
+			this.socket.onopen      = this._onOpen.bind(this);
 			this.socket.onerror 	= this._onError.bind(this);
-		    this.socket.onclose 	= this._onClose.bind(this);
-		    this.socket.onmessage 	= this._onMessage.bind(this);
+			this.socket.onclose 	= this._onClose.bind(this);
+			this.socket.onmessage 	= this._onMessage.bind(this);
 		}
 	},
 	
