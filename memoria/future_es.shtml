@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!--#include virtual="head_es.html" -->
+
+<div id="Content">
+
+<h2>Futuras mejoras</h2>
+
+<p>Roomba surgió en un principio como la idea de conseguir unificar y simplificar el sistema de mensajería, concretamente el Whatsapp, sistema que muchísima gente utiliza hoy en día pero que sólo está disponible para smartphones. La idea se quedó finalmente en montar nuestro propio servicio simplificado, pero seguimos teniendo en mente expandirlo de forma que los usuarios puedan usar sus cuentas de Whatsapp a través de nuestro sistema, permitiendo así a usuarios sin smartphone poder llegar a esa comunidad de mensajería.</p>
+</div> 
+      
+<!--#include virtual="foot_es.html" -->
+
+</body>
+</html>
