@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!--#include virtual="head_es.html" -->
+
+      <div id="Content">
+
+<h2>Descargas</h2>
+
+<p>
+Como hemos mencionado en el apartado de <a href="install_es">Instalación</a>, todo el código así como esta memoria y toda clase de documentación están disponibles en <a href="https://github.com/detaeye/Roomba">nuestro proyecto de Github</a>.
+</p>
+
+</div> 
+      
+<!--#include virtual="foot_es.html" -->
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!--#include virtual="head_es.html" -->
+
+<div id="Content">
+
+<h2>Descripción</h2>
+
+<p><strong>Roomba</strong> es un chat pensado para ganar en simplicidad a cualquier otra herramienta disponible actualmente. Sólo <a href="http://eroomba.com">entra en la web</a>, introduce tu nick y a chatear! Hablar con tus amigos es tan sencillo como compartir el link y puedes usarlo bajo cualquier plataforma, ¡tan sólo es necesario un navegador web con JavaScript!</p>
+
+<h3>Validación</h3>
+<p>La web está validada según las normas del <a href="http://www.w3.org/">W3C</a> y <a href="http://validator.w3.org/check?uri=http://eroomba.com&charset=(detect+automatically)&doctype=Inline&group=0">el validador de su web</a></p>
+
+<h3>Faceta social</h3>
+<p>Hemos decidido introducir una pequeña faceta social o web 2.0 en la página de Roomba. Visualmente se reduce a un área en el header que permite compartir un enlace con la sala del chat en las redes sociales Facebook, Twitter y Google+. La ventaja que ofrece esta faceta es que permite al usuario un enlace con sus contacto para reunirlos a todos en la misma sala para debatir sobre un tema en concreto, por ejemplo un partido de fútbol que se está disputando. Sin intenciones de reinventar la "rueda" optamos por usar un iframe facilitado por <a href="www.addthis.com">AddThis</a>, sitio web dedicado a ofrecer iframe con diversos diseños y códigos para compartir sitios web. </p>
+
+<p>Dentro de nuestros propósitos de adaptar nuestro proyecto a las tendencias sociales de internet y nuevos dispositivos, decidimos incluir también un código QR con el enlace de la sala. Esto facilita la compartición de estos enlaces cuando se dispone de un dispositivo móvil. El código QR lo obtenemos gracias a las <a href="http://code.google.com/apis/chart/">APIs de Google</a>.</p>
+
+<h3>Paypal</h3>
+
+<p>Nuestro proyecto cuenta con un sistema de donaciones mediante PayPal. Para oferecer esta opción nos beneficiamos del <a href="https://www.paypal.com/es/cgi-bin/webscr?cmd=_donate-intro-outside">servicio de PayPal</a> que genera un código Javascript a insertar en la página web siguendo unos simples pasos. Para realizar una donación únicamente debe seguir el enlace del botón de donación en el header, siéntase libre de usarlo. </p>
+
+<h3>Nuestro sistema tiene diferentes formas de uso, que son:</h3>
+<ol>
+<li>Administrador de la máquina</li>
+<p>El administrador de la máquina donde está instalado el servidor de Roomba debe preocuparse de que Openfire no rebase los límites de memoria, o de lo contrario colapsará el sistema y será necesario reiniciarlo. Es importante mantener a ralla el servidor, ya que al estar desarrollado en Java estas situaciones son mas habituales de lo esperado y una caída del sistema puede ser muy incómoda para los usuarios, que verían el servicio detenido por tiempo indefinido.</p>
+<li>Administrador Openfire</li>
+<p>Un administrador del servidor puede entrar a la pasarela de configuración de Openfire a través del puerto 9090, loguearse con su usuario y contraseña y configurar las opciones del servidor. Estas opciones son muy diversas, pero la mayoría están ya pensadas para el uso concreto de Roomba y no es necesario tocarlas a menos que algo fuera mal. En general, el uso que un administrador debería darle a esta pasarela sería para crear salas de chat con configuraciones especiales (como añadir protección por contraseña), crear y reservar nombres de usuario especiales, banear a posibles atacantes y en alguna remota situación cambiar los puertos que utiliza Openfire.</p>
+<li>Moderador de la sala</li>
+<p>Cuando un usuario accede a la portada de Roomba se crea automáticamente una sala de chat para él. Del mismo modo, este usuario pasa a ser el moderador de la misma. A partir de ese momento otros usuarios pueden unirse a la sala, pero sólo su creador tiene los permisos habituales para expulsar usuarios o silenciarlos. Esto va un poco en contra de la filosofía de uso libre de Roomba, pero pensamos que es necesario para garantizar que los usuarios puedan chatear con la confianza de tener el control completo sobre sus conversaciones.</p>
+<li>Usuario común</li>
+<p>En general, el usuario de Roomba entrará invitado por alguien que haya creado una sala y podrá chatear con los usuarios que allí estén conectados. Podrá también abrir conversaciones privadas con las personas que estén en la sala, pero no podrá expulsar a nadie. Tendrá, eso sí, poder para invitar a otros usuarios, ya que el acceso a una sala es libre.</p>
+</ol>
+
+<h3>¡Ha sido usado en una empresa!</h3>
+
+<p>Durante la fase de pruebas del proyecto, tuvimos la oportunidad de facilitar los servicios de Roomba a la empresa <a href="http://www.grupoleben.com">Grupo Leben</a>. Esta empresa tenía la necesidad de establecer una servicio de comunicación entre todo un equipo de Marketing (5 personas) y otra persona residente en Brasíl. La poca disciplina del servicio de mensajería instantánea de Microsoft Messenger y las quejas sobre la lentitud de Skype por parte del equipo, nos impulsó proponer Roomba como una alternativa ligera y efectiva. La experiencia resultó todo un éxito, nos permitió adaptar ciertos aspectos de la interfaz y corregir varios fallos que aún no habíamos lozalizado. Por su parte el equipo de Marketing quedó satisfecho con la alternativa. Elogiaron la sencillez y fluidez de Roomba. </p>
+</div> 
+      
+<!--#include virtual="foot_es.html" -->
+
+   </body>
+</html>

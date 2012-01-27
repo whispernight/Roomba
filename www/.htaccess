@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+Options +MultiViews
+RewriteEngine On
+RewriteRule http-bind/ http://localhost:7070/http-bind/ [P]
+
+# Caso 1: Usuario entra directo a una sala
+RewriteRule ^(..)/(.+)$		index.php?id=$2&lang=$1	[L]

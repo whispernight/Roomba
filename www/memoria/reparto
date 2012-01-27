@@ -1,0 +1,24 @@
+* JELLE
+J - Modelo ER Openfire
+J - Licencias GPL y MIT
+J - Licencias de los contenidos
+J - Faceta 2.0
+J - Paypal
+J - Github (Sourceforge?)
+J - Ha sido usado en Leben!
+J - Explicar CMS Openfire
+J - Bibliografia
+
+== HECHO ==
+F - Explicar protocolo XMPP (XML)
+F - Mustache
+F - Validacion W3C
+F - AJAX
+F - Sesiones (Cookies y Openfire)
+F - Roles (4)
+- Usuario normal
+- Moderador chat
+- Administrador Openfire
+- Administrador de la máquina
+F - Bibliografia
+

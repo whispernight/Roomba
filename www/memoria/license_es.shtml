@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!--#include virtual="head_es.html" -->
+
+      <div id="Content">
+
+<h2>Licencia</h2>
+
+<p>La librería Javascript Candy, es publica bajo la licencia MIT. Esta licencia permite reutilizar el software con esta licencia tanto para ser software libre como para ser software no libre, permitiendo no liberar los cambios realizados al programa original. También nos permite licenciar cambios con licencia GPL, o cualquiera que sea compatible (es decir, que cumpla las cláusulas de distribución). <a href="http://www.opensource.org/licenses/MIT">Ver más información</a></p>
+
+<p>Por otro lado, nuestro servidor XMPP, Openfire, se publica bajo la licencia Apache License 2.0. Esa la licencia de software libre creada por la Apache Software Foundation (ASF). Esta licencia requiere la conservación del aviso de copyright y el disclaimer, es decir, no exige que las obras derivadas (versiones modificadas) del software se distribuyan usando la misma licencia, ni siquiera que se tengan que distribuir como software libre/open source. La Licencia Apache sólo exige que se mantenga una noticia que informe a los receptores que en la distribución se ha usado código con la Licencia Apache. <a href="http://www.opensource.org/licenses/Apache-2.0">Ver más información</a></p>
+
+<p>Por nuestra parte, hemos decidido también distribuir nuestro proyecto bajo esta última licencia. Hemos optado por esta licencia ya que nos resulta más flexible que la licencia MIT o la famosa GPL, Licencia Pública de GNU. </p>
+
+<h2>Licencias de los contenidos</h2>
+
+<p>Dado que se trata de un chat anónimo y de libre acceso para cualquier persona con una conexión de a internet (en caso de censura, no será por nuestra parte) no hemos considerado necesarias licencias o protecciones que superen el sentido común que debería aplicar cualquier persona que navega por internet. </p>
+
+</div> 
+      
+<!--#include virtual="foot_es.html" -->
+
+</body>
+</html>

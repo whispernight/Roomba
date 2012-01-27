@@ -1,0 +1,1814 @@
+2011.12.06 00:56:44 org.jivesoftware.util.log.util.JettyLog - FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use
+2011.12.06 00:56:44 org.jivesoftware.util.log.util.JettyLog - FAILED org.eclipse.jetty.server.Server@9a8a68: java.net.BindException: Address already in use
+2011.12.06 01:01:17 org.jivesoftware.util.log.util.JettyLog - FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use
+2011.12.06 01:01:17 org.jivesoftware.util.log.util.JettyLog - FAILED org.eclipse.jetty.server.Server@1f4e571: java.net.BindException: Address already in use
+2011.12.06 01:27:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d8cd5b0d. [127.0.0.1]
+2011.12.06 01:27:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d8cd5b0d. [127.0.0.1]
+2011.12.06 01:58:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e3c99574. [127.0.0.1]
+2011.12.06 01:58:58 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 848077319
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.06 01:59:07 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 848077319
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.06 02:29:26 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2011.12.06 02:29:26 org.jivesoftware.util.log.util.JettyLog - Can't reuse /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu, using /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu_4574625353940140981
+2011.12.06 02:35:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5136810e. [127.0.0.1]
+2011.12.06 02:35:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5136810e. [127.0.0.1]
+2011.12.06 02:39:55 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 4024297832
+2011.12.06 02:39:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 661df42a. [127.0.0.1]
+2011.12.06 03:33:56 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2011.12.06 03:34:22 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2011.12.06 03:37:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a1343d01. [127.0.0.1]
+2011.12.06 03:37:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a1343d01. [127.0.0.1]
+2011.12.06 03:42:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 965bcb45. [127.0.0.1]
+2011.12.06 03:42:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 965bcb45. [127.0.0.1]
+2011.12.06 03:47:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 97ab997a. [127.0.0.1]
+2011.12.06 03:53:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dbc2169a. [127.0.0.1]
+2011.12.06 03:53:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dbc2169a. [127.0.0.1]
+2011.12.06 03:55:00 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 20e2befe. [127.0.0.1]
+2011.12.06 03:55:00 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 20e2befe. [127.0.0.1]
+2011.12.06 03:57:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d83124d8. [127.0.0.1]
+2011.12.06 03:57:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d83124d8. [127.0.0.1]
+2011.12.06 03:57:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 18021a33. [127.0.0.1]
+2011.12.06 03:57:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 18021a33. [127.0.0.1]
+2011.12.06 03:58:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4711e673. [127.0.0.1]
+2011.12.06 03:58:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4711e673. [127.0.0.1]
+2011.12.06 03:59:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3ff4cafc. [127.0.0.1]
+2011.12.06 03:59:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3ff4cafc. [127.0.0.1]
+2011.12.06 04:01:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8bf6a6fe. [127.0.0.1]
+2011.12.06 04:01:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8bf6a6fe. [127.0.0.1]
+2011.12.06 04:06:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 718a0533. [127.0.0.1]
+2011.12.06 04:06:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 718a0533. [127.0.0.1]
+2011.12.06 04:06:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 247bcabe. [127.0.0.1]
+2011.12.06 04:06:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 247bcabe. [127.0.0.1]
+2011.12.06 04:08:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 35937b1. [127.0.0.1]
+2011.12.06 04:08:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 35937b1. [127.0.0.1]
+2011.12.06 04:08:54 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 82.158.133.55
+2011.12.06 04:09:53 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5c4069c8. [127.0.0.1]
+2011.12.06 12:25:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 12:28:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 13:01:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3e81d65b. [127.0.0.1]
+2011.12.06 13:11:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 13:14:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 14:28:31 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 95f36a91. [127.0.0.1]
+2011.12.06 14:28:31 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 95f36a91. [127.0.0.1]
+2011.12.06 14:28:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 689c11d0. [127.0.0.1]
+2011.12.06 15:25:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 16:34:18 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f3caf1be. [127.0.0.1]
+2011.12.06 16:42:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 17:18:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8d03d383. [127.0.0.1]
+2011.12.06 17:22:28 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 859893285
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.06 17:22:56 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 859893285
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.06 17:24:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d9c013a1. [127.0.0.1]
+2011.12.06 20:04:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 96468eb5. [127.0.0.1]
+2011.12.06 20:04:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 96468eb5. [127.0.0.1]
+2011.12.06 20:05:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6139ed6c. [127.0.0.1]
+2011.12.06 20:05:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6139ed6c. [127.0.0.1]
+2011.12.06 20:09:23 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session dc721aa8 cannot be delivered to client
+2011.12.06 20:14:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 629639c9. [127.0.0.1]
+2011.12.06 20:14:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a7a9b511. [127.0.0.1]
+2011.12.06 20:14:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a7a9b511. [127.0.0.1]
+2011.12.06 20:19:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 25b67fb6. [127.0.0.1]
+2011.12.06 20:21:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 20:23:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a5228d59. [127.0.0.1]
+2011.12.06 20:23:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a5228d59. [127.0.0.1]
+2011.12.06 20:23:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4c76097c. [127.0.0.1]
+2011.12.06 20:24:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b63beb63. [127.0.0.1]
+2011.12.06 20:24:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b63beb63. [127.0.0.1]
+2011.12.06 20:24:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 39165967. [127.0.0.1]
+2011.12.06 20:24:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8f6c21fa. [127.0.0.1]
+2011.12.06 20:26:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 642e888b. [127.0.0.1]
+2011.12.06 20:26:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 642e888b. [127.0.0.1]
+2011.12.06 20:28:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2d19a6ae. [127.0.0.1]
+2011.12.06 20:34:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6c58e621. [127.0.0.1]
+2011.12.06 20:34:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 22ded1b1. [127.0.0.1]
+2011.12.06 21:30:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.06 23:54:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 00:25:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: da2f6824. [127.0.0.1]
+2011.12.07 00:43:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 63f050e5. [127.0.0.1]
+2011.12.07 00:55:21 org.jivesoftware.openfire.IQRouter - User tried to authenticate with this server using an unknown receipient: <iq type="get" from="fermin/825328d6" to="lol@conference.fermin" id="disco3"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2011.12.07 00:55:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 825328d6. [127.0.0.1]
+2011.12.07 01:03:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 550528c5. [127.0.0.1]
+2011.12.07 01:03:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 550528c5. [127.0.0.1]
+2011.12.07 01:04:02 org.jivesoftware.openfire.IQRouter - User tried to authenticate with this server using an unknown receipient: <iq type="get" from="fermin/93d4713a" to="eso@conference.fermin" id="disco3"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2011.12.07 01:05:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 93d4713a. [127.0.0.1]
+2011.12.07 01:25:38 org.jivesoftware.openfire.IQRouter - User tried to authenticate with this server using an unknown receipient: <iq type="get" from="fermin/2119b51c" to="loles@conference.fermin" id="disco3"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2011.12.07 01:28:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2119b51c. [127.0.0.1]
+2011.12.07 01:34:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 179e0568. [127.0.0.1]
+2011.12.07 01:34:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 179e0568. [127.0.0.1]
+2011.12.07 01:36:27 org.jivesoftware.openfire.http.HttpSession - Request 907922737 > 907922736, ending session.
+2011.12.07 01:36:27 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session a28a1f3a cannot be delivered to client
+2011.12.07 01:36:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a28a1f3a. [127.0.0.1]
+2011.12.07 01:36:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a28a1f3a. [127.0.0.1]
+2011.12.07 01:37:03 org.jivesoftware.openfire.IQRouter - User tried to authenticate with this server using an unknown receipient: <iq type="get" from="fermin/9f8c908b" to="aa@conference.fermin" id="disco3"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2011.12.07 01:41:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9f8c908b. [127.0.0.1]
+2011.12.07 01:42:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b50f4318. [127.0.0.1]
+2011.12.07 01:42:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b50f4318. [127.0.0.1]
+2011.12.07 01:42:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4ce5f26d. [127.0.0.1]
+2011.12.07 01:42:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 15bdbf43. [127.0.0.1]
+2011.12.07 01:43:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2fef620a. [127.0.0.1]
+2011.12.07 01:43:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2fef620a. [127.0.0.1]
+2011.12.07 01:45:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fdac3d14. [127.0.0.1]
+2011.12.07 01:45:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fdac3d14. [127.0.0.1]
+2011.12.07 01:51:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 47fa3a86. [127.0.0.1]
+2011.12.07 01:51:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 47fa3a86. [127.0.0.1]
+2011.12.07 01:52:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d4af9a14. [127.0.0.1]
+2011.12.07 01:52:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d4af9a14. [127.0.0.1]
+2011.12.07 01:55:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 87b9e2f0. [127.0.0.1]
+2011.12.07 01:55:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 87b9e2f0. [127.0.0.1]
+2011.12.07 01:57:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4cdcc9f7. [127.0.0.1]
+2011.12.07 01:57:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4cdcc9f7. [127.0.0.1]
+2011.12.07 01:58:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: bed4b3ec. [127.0.0.1]
+2011.12.07 01:58:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: bed4b3ec. [127.0.0.1]
+2011.12.07 02:02:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9ebba3ea. [127.0.0.1]
+2011.12.07 02:02:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9ebba3ea. [127.0.0.1]
+2011.12.07 02:14:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b94f6f6a. [127.0.0.1]
+2011.12.07 02:14:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b94f6f6a. [127.0.0.1]
+2011.12.07 02:20:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 29599a3c. [127.0.0.1]
+2011.12.07 02:20:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 29599a3c. [127.0.0.1]
+2011.12.07 02:28:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 99aa69e4. [127.0.0.1]
+2011.12.07 02:28:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 99aa69e4. [127.0.0.1]
+2011.12.07 02:28:57 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.07 02:28:57 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.07 02:29:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a91aaa2d. [127.0.0.1]
+2011.12.07 02:29:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a91aaa2d. [127.0.0.1]
+2011.12.07 02:31:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 614dfed8. [127.0.0.1]
+2011.12.07 02:31:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 614dfed8. [127.0.0.1]
+2011.12.07 02:37:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 953f5f6d. [127.0.0.1]
+2011.12.07 02:42:02 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c0b40e4b. [127.0.0.1]
+2011.12.07 02:42:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4ae30da2. [127.0.0.1]
+2011.12.07 02:42:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4ae30da2. [127.0.0.1]
+2011.12.07 04:12:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 04:15:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 04:45:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 06:43:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 09:03:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 96689348. [127.0.0.1]
+2011.12.07 09:34:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 09:36:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 10:17:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ece464e2. [127.0.0.1]
+2011.12.07 10:46:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 10:48:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 10:54:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e54f03fa. [127.0.0.1]
+2011.12.07 11:25:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 11:28:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 12:36:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 13:09:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 48a44996. [127.0.0.1]
+2011.12.07 13:11:53 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 47f2d045. [127.0.0.1]
+2011.12.07 13:11:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 29ec7020. [127.0.0.1]
+2011.12.07 13:15:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 49bb58c7. [127.0.0.1]
+2011.12.07 13:15:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 49bb58c7. [127.0.0.1]
+2011.12.07 13:26:01 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c4ecfd25. [127.0.0.1]
+2011.12.07 13:26:01 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c4ecfd25. [127.0.0.1]
+2011.12.07 13:28:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cb8049eb. [127.0.0.1]
+2011.12.07 13:28:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cb8049eb. [127.0.0.1]
+2011.12.07 13:28:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f79534fe. [127.0.0.1]
+2011.12.07 13:28:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f79534fe. [127.0.0.1]
+2011.12.07 13:33:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5f3529eb. [127.0.0.1]
+2011.12.07 13:33:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5f3529eb. [127.0.0.1]
+2011.12.07 13:37:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ab749718. [127.0.0.1]
+2011.12.07 13:37:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ab749718. [127.0.0.1]
+2011.12.07 13:41:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: eb757ba4. [127.0.0.1]
+2011.12.07 13:41:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: eb757ba4. [127.0.0.1]
+2011.12.07 13:43:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c5c78ddb. [127.0.0.1]
+2011.12.07 13:43:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c5c78ddb. [127.0.0.1]
+2011.12.07 13:43:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5c8c509a. [127.0.0.1]
+2011.12.07 13:43:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5c8c509a. [127.0.0.1]
+2011.12.07 13:43:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7837d8c8. [127.0.0.1]
+2011.12.07 13:43:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7837d8c8. [127.0.0.1]
+2011.12.07 13:44:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e0ff5261. [127.0.0.1]
+2011.12.07 13:44:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e0ff5261. [127.0.0.1]
+2011.12.07 13:44:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 82d50c9e. [127.0.0.1]
+2011.12.07 13:44:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 82d50c9e. [127.0.0.1]
+2011.12.07 13:44:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9844cab9. [127.0.0.1]
+2011.12.07 13:44:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9844cab9. [127.0.0.1]
+2011.12.07 13:53:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2683c654. [127.0.0.1]
+2011.12.07 13:53:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2683c654. [127.0.0.1]
+2011.12.07 13:53:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4b53dee8. [127.0.0.1]
+2011.12.07 13:53:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4b53dee8. [127.0.0.1]
+2011.12.07 14:03:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 14:06:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 17:16:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 17:19:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 17:49:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 31b6d5d0. [127.0.0.1]
+2011.12.07 17:49:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 31b6d5d0. [127.0.0.1]
+2011.12.07 17:49:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 983896f4. [127.0.0.1]
+2011.12.07 18:26:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 18:29:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 18:56:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 572aa0c0. [127.0.0.1]
+2011.12.07 19:01:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b069310. [127.0.0.1]
+2011.12.07 20:28:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 20:30:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 22:00:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 22:02:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.07 23:00:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e92a4c7b. [127.0.0.1]
+2011.12.07 23:01:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 20474423. [127.0.0.1]
+2011.12.07 23:51:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c8787559. [127.0.0.1]
+2011.12.07 23:51:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c8787559. [127.0.0.1]
+2011.12.08 00:06:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 00:09:02 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3957d874. [127.0.0.1]
+2011.12.08 00:09:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3957d874. [127.0.0.1]
+2011.12.08 00:30:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fe72ee8d. [127.0.0.1]
+2011.12.08 00:30:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fe72ee8d. [127.0.0.1]
+2011.12.08 00:33:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 91a6f52a. [127.0.0.1]
+2011.12.08 00:33:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 91a6f52a. [127.0.0.1]
+2011.12.08 00:39:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2c1cb06c. [127.0.0.1]
+2011.12.08 00:39:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2c1cb06c. [127.0.0.1]
+2011.12.08 00:41:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 15497d27. [127.0.0.1]
+2011.12.08 00:41:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 15497d27. [127.0.0.1]
+2011.12.08 00:43:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e23769a8. [127.0.0.1]
+2011.12.08 00:43:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e23769a8. [127.0.0.1]
+2011.12.08 00:44:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f59b0a74. [127.0.0.1]
+2011.12.08 00:44:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f59b0a74. [127.0.0.1]
+2011.12.08 00:47:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 715aa3bd. [127.0.0.1]
+2011.12.08 00:47:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 715aa3bd. [127.0.0.1]
+2011.12.08 00:48:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b28f551b. [127.0.0.1]
+2011.12.08 00:48:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b28f551b. [127.0.0.1]
+2011.12.08 02:39:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 03:49:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 03:52:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 07:20:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 07:23:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 10:59:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 12:06:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 12:21:17 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 1638279839
+2011.12.08 12:21:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b65e7dd. [127.0.0.1]
+2011.12.08 13:04:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9cda0690. [127.0.0.1]
+2011.12.08 14:05:26 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3477959226
+2011.12.08 14:05:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 92375129. [127.0.0.1]
+2011.12.08 14:05:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 92375129. [127.0.0.1]
+2011.12.08 15:15:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 15:17:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 16:20:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 449a668e. [127.0.0.1]
+2011.12.08 16:20:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 449a668e. [127.0.0.1]
+2011.12.08 16:34:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f05493a9. [127.0.0.1]
+2011.12.08 16:34:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f05493a9. [127.0.0.1]
+2011.12.08 16:34:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 633d0320. [127.0.0.1]
+2011.12.08 16:40:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f36db6f1. [127.0.0.1]
+2011.12.08 16:40:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f36db6f1. [127.0.0.1]
+2011.12.08 16:43:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 46b8d99f. [127.0.0.1]
+2011.12.08 16:43:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 46b8d99f. [127.0.0.1]
+2011.12.08 16:48:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 73397895. [127.0.0.1]
+2011.12.08 16:48:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 73397895. [127.0.0.1]
+2011.12.08 17:01:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 17:03:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 289398af. [127.0.0.1]
+2011.12.08 17:03:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 289398af. [127.0.0.1]
+2011.12.08 17:04:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 17:05:18 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 30244606. [127.0.0.1]
+2011.12.08 17:05:18 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 30244606. [127.0.0.1]
+2011.12.08 17:06:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3f4a6b48. [127.0.0.1]
+2011.12.08 17:06:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3f4a6b48. [127.0.0.1]
+2011.12.08 17:11:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5e3fe021. [127.0.0.1]
+2011.12.08 17:11:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5e3fe021. [127.0.0.1]
+2011.12.08 17:14:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ea9b59c6. [127.0.0.1]
+2011.12.08 17:14:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ea9b59c6. [127.0.0.1]
+2011.12.08 17:15:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e78cf886. [127.0.0.1]
+2011.12.08 17:15:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e78cf886. [127.0.0.1]
+2011.12.08 17:17:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5ad49b8b. [127.0.0.1]
+2011.12.08 17:17:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5ad49b8b. [127.0.0.1]
+2011.12.08 17:17:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 654e1c61. [127.0.0.1]
+2011.12.08 17:17:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 654e1c61. [127.0.0.1]
+2011.12.08 17:18:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e4d967bd. [127.0.0.1]
+2011.12.08 17:18:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e4d967bd. [127.0.0.1]
+2011.12.08 17:19:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 791cc86. [127.0.0.1]
+2011.12.08 17:19:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 791cc86. [127.0.0.1]
+2011.12.08 17:19:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 526f0aeb. [127.0.0.1]
+2011.12.08 17:19:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 526f0aeb. [127.0.0.1]
+2011.12.08 17:21:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ee83a918. [127.0.0.1]
+2011.12.08 17:21:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ee83a918. [127.0.0.1]
+2011.12.08 17:22:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 58bf309d. [127.0.0.1]
+2011.12.08 17:22:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 58bf309d. [127.0.0.1]
+2011.12.08 17:22:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f987a712. [127.0.0.1]
+2011.12.08 17:22:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f987a712. [127.0.0.1]
+2011.12.08 17:31:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: eb93bb1d. [127.0.0.1]
+2011.12.08 17:31:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: eb93bb1d. [127.0.0.1]
+2011.12.08 17:31:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 55f6705e. [127.0.0.1]
+2011.12.08 17:31:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 55f6705e. [127.0.0.1]
+2011.12.08 17:32:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f01c00f6. [127.0.0.1]
+2011.12.08 17:32:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f01c00f6. [127.0.0.1]
+2011.12.08 17:33:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dcfde371. [127.0.0.1]
+2011.12.08 17:33:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dcfde371. [127.0.0.1]
+2011.12.08 17:34:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 87e626ff. [127.0.0.1]
+2011.12.08 17:34:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 87e626ff. [127.0.0.1]
+2011.12.08 17:35:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b1ed357c. [127.0.0.1]
+2011.12.08 17:35:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b1ed357c. [127.0.0.1]
+2011.12.08 17:35:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8355eef. [127.0.0.1]
+2011.12.08 17:35:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8355eef. [127.0.0.1]
+2011.12.08 17:39:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b16112ac. [127.0.0.1]
+2011.12.08 17:39:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b16112ac. [127.0.0.1]
+2011.12.08 17:41:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1d3f65c9. [127.0.0.1]
+2011.12.08 17:41:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1d3f65c9. [127.0.0.1]
+2011.12.08 17:43:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e39b4a1a. [127.0.0.1]
+2011.12.08 17:43:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e39b4a1a. [127.0.0.1]
+2011.12.08 17:44:02 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aba1829e. [127.0.0.1]
+2011.12.08 17:44:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aba1829e. [127.0.0.1]
+2011.12.08 17:48:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c58baf51. [127.0.0.1]
+2011.12.08 17:48:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c58baf51. [127.0.0.1]
+2011.12.08 17:49:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 687ccd81. [127.0.0.1]
+2011.12.08 17:49:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 687ccd81. [127.0.0.1]
+2011.12.08 17:50:00 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 39fff19c. [127.0.0.1]
+2011.12.08 17:50:01 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 39fff19c. [127.0.0.1]
+2011.12.08 18:19:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f6e07f9a. [127.0.0.1]
+2011.12.08 18:19:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f6e07f9a. [127.0.0.1]
+2011.12.08 18:20:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d371c8b4. [127.0.0.1]
+2011.12.08 18:20:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d371c8b4. [127.0.0.1]
+2011.12.08 18:20:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b9ce16c8. [127.0.0.1]
+2011.12.08 18:20:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b9ce16c8. [127.0.0.1]
+2011.12.08 18:25:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 18:27:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 18:34:57 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8e65f3cd. [127.0.0.1]
+2011.12.08 18:34:57 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8e65f3cd. [127.0.0.1]
+2011.12.08 18:35:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ff70eef6. [127.0.0.1]
+2011.12.08 18:35:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ff70eef6. [127.0.0.1]
+2011.12.08 18:47:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: df34d362. [127.0.0.1]
+2011.12.08 18:47:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: df34d362. [127.0.0.1]
+2011.12.08 18:59:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 546737ab. [127.0.0.1]
+2011.12.08 18:59:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 546737ab. [127.0.0.1]
+2011.12.08 18:59:45 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 3452003861
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.08 18:59:45 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 3452003861
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.08 18:59:45 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 3452003861
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.08 19:00:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ea95d409. [127.0.0.1]
+2011.12.08 19:00:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a58e4f8e. [127.0.0.1]
+2011.12.08 19:00:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a58e4f8e. [127.0.0.1]
+2011.12.08 19:05:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 333eabbd. [127.0.0.1]
+2011.12.08 19:05:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 333eabbd. [127.0.0.1]
+2011.12.08 19:08:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2a180aee. [127.0.0.1]
+2011.12.08 19:08:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2a180aee. [127.0.0.1]
+2011.12.08 19:09:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 29ed7ff2. [127.0.0.1]
+2011.12.08 19:09:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 29ed7ff2. [127.0.0.1]
+2011.12.08 19:09:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 94b33f06. [127.0.0.1]
+2011.12.08 19:09:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 94b33f06. [127.0.0.1]
+2011.12.08 19:10:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5aa8a843. [127.0.0.1]
+2011.12.08 19:10:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5aa8a843. [127.0.0.1]
+2011.12.08 19:11:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d86a5c51. [127.0.0.1]
+2011.12.08 19:11:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d86a5c51. [127.0.0.1]
+2011.12.08 19:12:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 126c0211. [127.0.0.1]
+2011.12.08 19:12:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 126c0211. [127.0.0.1]
+2011.12.08 19:14:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d40ac968. [127.0.0.1]
+2011.12.08 19:14:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d40ac968. [127.0.0.1]
+2011.12.08 19:15:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 896aa6f4. [127.0.0.1]
+2011.12.08 19:15:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 896aa6f4. [127.0.0.1]
+2011.12.08 19:15:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ff784440. [127.0.0.1]
+2011.12.08 19:15:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ff784440. [127.0.0.1]
+2011.12.08 19:18:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ddfef31e. [127.0.0.1]
+2011.12.08 19:18:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ddfef31e. [127.0.0.1]
+2011.12.08 19:19:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 312182c6. [127.0.0.1]
+2011.12.08 19:19:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 312182c6. [127.0.0.1]
+2011.12.08 19:21:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 879912df. [127.0.0.1]
+2011.12.08 19:21:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 879912df. [127.0.0.1]
+2011.12.08 19:22:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 58a8027e. [127.0.0.1]
+2011.12.08 19:22:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 58a8027e. [127.0.0.1]
+2011.12.08 19:23:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d2ba46b5. [127.0.0.1]
+2011.12.08 19:23:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d2ba46b5. [127.0.0.1]
+2011.12.08 19:24:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 943ca682. [127.0.0.1]
+2011.12.08 19:24:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 943ca682. [127.0.0.1]
+2011.12.08 19:26:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 59a85f8b. [127.0.0.1]
+2011.12.08 19:26:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 59a85f8b. [127.0.0.1]
+2011.12.08 19:27:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ae144858. [127.0.0.1]
+2011.12.08 19:27:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ae144858. [127.0.0.1]
+2011.12.08 19:27:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dd423113. [127.0.0.1]
+2011.12.08 19:27:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dd423113. [127.0.0.1]
+2011.12.08 19:28:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b20b876e. [127.0.0.1]
+2011.12.08 19:28:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b20b876e. [127.0.0.1]
+2011.12.08 19:30:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b255ee5f. [127.0.0.1]
+2011.12.08 19:32:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c8fdbc41. [127.0.0.1]
+2011.12.08 19:32:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c8fdbc41. [127.0.0.1]
+2011.12.08 19:33:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b7c72521. [127.0.0.1]
+2011.12.08 19:33:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b7c72521. [127.0.0.1]
+2011.12.08 19:34:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aeda4f7e. [127.0.0.1]
+2011.12.08 19:34:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aeda4f7e. [127.0.0.1]
+2011.12.08 19:34:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d96f6644. [127.0.0.1]
+2011.12.08 19:34:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d96f6644. [127.0.0.1]
+2011.12.08 19:38:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d098a29d. [127.0.0.1]
+2011.12.08 19:38:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d098a29d. [127.0.0.1]
+2011.12.08 19:44:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 19:46:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 88b52eb2. [127.0.0.1]
+2011.12.08 20:13:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 690486bf. [127.0.0.1]
+2011.12.08 21:39:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.08 22:07:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 00:22:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 02:10:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 02:28:58 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.09 02:28:58 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.09 08:49:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 08:51:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 09:11:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 10:03:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 11:32:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 11:32:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 12:58:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 77cbbfdd. [127.0.0.1]
+2011.12.09 14:19:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 15:13:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9e882d09. [127.0.0.1]
+2011.12.09 19:44:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 22:07:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 22:11:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 22:17:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ae009605. [127.0.0.1]
+2011.12.09 22:17:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ae009605. [127.0.0.1]
+2011.12.09 22:25:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 432c7cb. [127.0.0.1]
+2011.12.09 22:25:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 432c7cb. [127.0.0.1]
+2011.12.09 22:33:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 154ab19d. [127.0.0.1]
+2011.12.09 22:35:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 471cb5ee. [127.0.0.1]
+2011.12.09 22:35:26 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session 88949588 cannot be delivered to client
+2011.12.09 22:35:26 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session 88949588 cannot be delivered to client
+2011.12.09 22:35:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 88949588. [127.0.0.1]
+2011.12.09 22:49:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 41dedb82. [127.0.0.1]
+2011.12.09 22:49:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 41dedb82. [127.0.0.1]
+2011.12.09 23:21:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: db07ee26. [127.0.0.1]
+2011.12.09 23:22:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.09 23:24:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 00:03:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 02:47:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 02:50:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 03:17:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 04:00:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 05:08:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 05:11:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 05:13:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 05:15:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 06:17:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 06:20:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 12:12:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 17:35:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 20:00:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 20:02:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.10 20:04:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 00:50:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 00:51:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 02:28:59 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.11 02:28:59 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.11 04:43:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 04:46:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 05:48:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 05:51:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 07:03:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 08:46:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 08:49:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 15:35:34 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 16:26:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.11 18:06:33 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4e5d871f. [127.0.0.1]
+2011.12.11 18:07:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a2a9087c. [127.0.0.1]
+2011.12.11 18:10:01 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fdcfb458. [127.0.0.1]
+2011.12.11 20:28:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 01:13:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2ebd6c71. [127.0.0.1]
+2011.12.12 02:59:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 07:41:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 07:44:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 08:12:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 09:09:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8224bb. [127.0.0.1]
+2011.12.12 09:09:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8224bb. [127.0.0.1]
+2011.12.12 09:09:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d071c023. [127.0.0.1]
+2011.12.12 09:09:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d071c023. [127.0.0.1]
+2011.12.12 09:10:35 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b63e3c58. [127.0.0.1]
+2011.12.12 10:49:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f2ef996f. [127.0.0.1]
+2011.12.12 10:53:56 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 2657312434
+2011.12.12 10:53:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 14b12b73. [127.0.0.1]
+2011.12.12 10:56:27 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 1008451791
+2011.12.12 10:56:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9b757cb8. [127.0.0.1]
+2011.12.12 11:01:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 726410fc. [127.0.0.1]
+2011.12.12 11:01:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 726410fc. [127.0.0.1]
+2011.12.12 11:02:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 248b69fe. [127.0.0.1]
+2011.12.12 11:02:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 248b69fe. [127.0.0.1]
+2011.12.12 11:04:40 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3585959464
+2011.12.12 11:04:40 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3147432870
+2011.12.12 11:04:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 70458cc2. [127.0.0.1]
+2011.12.12 11:04:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fbc38d7b. [127.0.0.1]
+2011.12.12 11:04:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 11:40:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b20a0d27. [127.0.0.1]
+2011.12.12 11:40:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b20a0d27. [127.0.0.1]
+2011.12.12 12:42:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 15:53:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 17:20:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 17:23:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 21:45:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 21:48:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 22:55:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 22:58:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 23:54:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 23:56:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.12 23:58:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 02:26:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 02:29:00 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.13 02:29:00 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.13 02:30:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 03:09:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 03:11:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 03:38:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 03:41:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 06:00:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 07:09:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 07:12:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 07:47:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 07:50:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 09:33:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e30a1b12. [127.0.0.1]
+2011.12.13 09:33:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e30a1b12. [127.0.0.1]
+2011.12.13 10:11:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 10:13:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 10:40:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 10:43:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 11:39:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 12:33:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 12:36:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 13:48:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b5137c88. [127.0.0.1]
+2011.12.13 16:34:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 16:37:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 18:54:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.13 23:30:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 00:25:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 00:27:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 02:59:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 04:18:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 04:21:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 04:48:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 04:51:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 05:31:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 05:33:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 07:24:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 10:38:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 11:13:09 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 694062022
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.14 11:13:10 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 694062022
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2011.12.14 11:15:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cf414a40. [127.0.0.1]
+2011.12.14 14:09:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 14:11:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:13:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:15:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:21:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:24:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:42:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 15:45:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 16:35:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 16:37:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.14 16:54:05 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 1145541956
+2011.12.14 16:54:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f158574d. [127.0.0.1]
+2011.12.14 16:56:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 741f3e9e. [127.0.0.1]
+2011.12.14 16:57:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1f0f2c82. [127.0.0.1]
+2011.12.14 16:57:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1f0f2c82. [127.0.0.1]
+2011.12.14 17:39:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aeddfabd. [127.0.0.1]
+2011.12.14 18:08:11 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5100840. [127.0.0.1]
+2011.12.14 18:17:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a05a29cd. [127.0.0.1]
+2011.12.14 20:52:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b941664b. [127.0.0.1]
+2011.12.14 20:52:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 557b385d. [127.0.0.1]
+2011.12.14 22:41:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 02:23:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 02:29:01 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.15 02:29:02 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.15 03:29:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 06:35:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 06:38:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 07:14:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 09:31:52 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 09:33:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 09:50:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 12:03:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 12:08:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 14:22:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 14:26:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 14:36:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 14:51:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 14:54:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 17:00:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 19:05:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 22:42:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.15 23:45:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c3cc3183. [127.0.0.1]
+2011.12.15 23:45:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c3cc3183. [127.0.0.1]
+2011.12.15 23:45:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6c475e92. [127.0.0.1]
+2011.12.15 23:46:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2897faf0. [127.0.0.1]
+2011.12.15 23:46:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2897faf0. [127.0.0.1]
+2011.12.15 23:46:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 681e0190. [127.0.0.1]
+2011.12.16 01:39:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 03:20:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 07:37:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 07:40:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 10:24:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 12:42:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 12:45:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 13:31:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 13:33:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 14:21:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 16:32:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 16:35:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 17:49:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 18:16:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 18:36:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 22:12:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 22:19:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 23:32:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.16 23:34:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 02:07:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 02:10:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 02:25:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 02:27:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 02:29:03 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.17 02:29:05 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.17 02:30:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: caa602c0. [127.0.0.1]
+2011.12.17 03:14:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 05:40:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 05:42:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 06:03:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 06:06:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 07:35:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 07:38:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 09:20:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 09:23:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 13:01:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 14:08:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 14:10:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 14:13:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 19:13:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 19:16:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 21:51:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.17 21:53:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 01:42:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 01:44:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 03:40:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 07:21:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 08:34:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 09:37:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 11:02:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 12:03:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 12:04:52 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 12:58:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 234f4b8. [127.0.0.1]
+2011.12.18 12:58:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 234f4b8. [127.0.0.1]
+2011.12.18 12:58:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3a159044. [127.0.0.1]
+2011.12.18 12:58:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3a159044. [127.0.0.1]
+2011.12.18 12:59:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a538fc86. [127.0.0.1]
+2011.12.18 12:59:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 501c7255. [127.0.0.1]
+2011.12.18 12:59:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 501c7255. [127.0.0.1]
+2011.12.18 17:25:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 17:27:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 18:24:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cea75ad2. [127.0.0.1]
+2011.12.18 20:29:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 22:27:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 22:30:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 23:12:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.18 23:14:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 01:14:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 01:17:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 02:27:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 02:29:05 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.19 02:29:06 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.19 04:55:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 04:58:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 07:28:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 07:30:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 08:54:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 09:07:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 10:12:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 14:03:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 14:05:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 15:19:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 15:22:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 16:02:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 16:58:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 17:00:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 21:45:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 21:47:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 21:52:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 23:46:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.19 23:48:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 01:44:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 04:16:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 04:18:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 05:35:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 06:18:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 06:21:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 07:31:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 07:45:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 07:47:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 09:28:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 10:46:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 12:36:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 12:39:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 16:16:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 16:19:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 17:14:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 18:02:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 18:40:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 18:42:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 19:14:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 20:24:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 20:26:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.20 21:12:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 02:19:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 02:21:34 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 02:29:07 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.21 02:29:07 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.21 03:09:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 07:25:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 08:17:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 08:19:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 09:58:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 10:00:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 10:32:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ec72cdb8. [127.0.0.1]
+2011.12.21 11:45:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2d6a53af. [127.0.0.1]
+2011.12.21 12:12:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 12:14:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 12:30:24 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session 25f54d5 cannot be delivered to client
+2011.12.21 12:42:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 12:45:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 12:47:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: db9ac25a. [127.0.0.1]
+2011.12.21 14:44:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8dc62cf5. [127.0.0.1]
+2011.12.21 16:05:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 16:08:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 16:17:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 41d82a9f. [127.0.0.1]
+2011.12.21 16:36:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 47e74cc. [127.0.0.1]
+2011.12.21 16:45:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 16:51:09 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3642776659
+2011.12.21 16:51:13 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a67fbac5. [127.0.0.1]
+2011.12.21 16:54:01 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3004692342
+2011.12.21 16:54:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3364185d. [127.0.0.1]
+2011.12.21 16:54:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3364185d. [127.0.0.1]
+2011.12.21 16:58:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6f6cc3d4. [127.0.0.1]
+2011.12.21 17:03:03 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 2738393678
+2011.12.21 17:03:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 66b22689. [127.0.0.1]
+2011.12.21 17:09:16 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3024172952
+2011.12.21 17:09:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1f2db1a3. [127.0.0.1]
+2011.12.21 17:11:32 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ae0f56e6. [127.0.0.1]
+2011.12.21 17:15:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 45594525. [127.0.0.1]
+2011.12.21 17:15:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 67b70fa9. [127.0.0.1]
+2011.12.21 17:16:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b1415ea4. [127.0.0.1]
+2011.12.21 18:51:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 332abbb1. [127.0.0.1]
+2011.12.21 19:11:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 19:13:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 22:42:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 22:44:34 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.21 23:59:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 00:01:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 01:08:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 01:16:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 01:18:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 01:39:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 01:41:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 05:13:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 05:17:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 08:20:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 08:50:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 08:53:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 11:08:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b2bad1ae. [127.0.0.1]
+2011.12.22 11:08:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b2bad1ae. [127.0.0.1]
+2011.12.22 11:23:33 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 771d42ad. [127.0.0.1]
+2011.12.22 11:24:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ad706243. [127.0.0.1]
+2011.12.22 12:26:52 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 12:29:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 17:49:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 18:09:49 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 3467292159
+2011.12.22 18:09:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ca8ccd9b. [127.0.0.1]
+2011.12.22 18:10:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6a87a285. [127.0.0.1]
+2011.12.22 18:22:01 org.jivesoftware.openfire.http.HttpSession - Deliverable unavailable for 618760241
+2011.12.22 18:22:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 36e5b768. [127.0.0.1]
+2011.12.22 19:34:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 19:36:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 23:31:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.22 23:34:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 00:16:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 00:27:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 00:30:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 02:29:08 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.23 02:29:08 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.23 03:27:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 03:29:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 07:25:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 08:46:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 08:48:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 11:19:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 12:13:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 12:16:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 13:05:53 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e24adec7. [127.0.0.1]
+2011.12.23 14:33:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6ac3c999. [127.0.0.1]
+2011.12.23 14:56:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 15:02:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 15:05:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 15:12:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 15:15:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 18:17:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 18:19:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 18:32:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 18:35:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 21:22:34 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 22:08:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.23 22:10:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 00:32:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 00:35:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 01:44:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 01:47:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 05:21:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 05:23:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 20:57:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 22:38:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.24 22:41:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 00:30:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 00:33:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 02:29:09 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.25 02:29:09 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2011.12.25 05:18:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 05:22:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 05:28:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 06:31:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 06:34:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 08:09:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 08:11:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 08:53:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 08:56:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 10:28:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 10:30:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 11:19:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 16:04:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 16:07:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 17:39:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 17:41:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 18:02:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 18:04:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 18:20:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 18:23:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 18:53:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 22:18:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 22:20:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 23:15:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.25 23:59:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 00:02:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 00:28:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 04:38:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 06:09:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 06:17:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 06:19:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 07:05:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 08:53:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 08:56:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 09:26:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 09:28:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 10:02:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7a3d9efd. [127.0.0.1]
+2011.12.26 10:05:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.26 10:07:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.29 16:37:22 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2011.12.29 16:37:22 org.jivesoftware.util.log.util.JettyLog - Can't reuse /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu, using /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu_4642613138265449706
+2011.12.29 16:38:27 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2011.12.29 16:38:27 org.jivesoftware.util.log.util.JettyLog - Can't reuse /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu, using /tmp/Jetty_0_0_0_0_9090_webapp____.dnguxu_1515592027105429671
+2011.12.29 16:40:37 org.jivesoftware.util.log.util.JettyLog - FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use
+2011.12.29 16:40:37 org.jivesoftware.util.log.util.JettyLog - FAILED AdminConsolePlugin$JiveSslConnector@0.0.0.0:9091: java.net.BindException: Address already in use
+2011.12.29 16:40:37 org.jivesoftware.util.log.util.JettyLog - FAILED org.eclipse.jetty.server.Server@a010ba: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+2011.12.29 16:46:53 org.jivesoftware.util.log.util.JettyLog - FAILED SelectChannelConnector@0.0.0.0:7070: java.net.BindException: Address already in use
+2011.12.29 16:46:53 org.jivesoftware.util.log.util.JettyLog - FAILED HttpBindManager$JiveSslConnector@0.0.0.0:7443: java.net.BindException: Address already in use
+2011.12.29 16:46:53 org.jivesoftware.util.log.util.JettyLog - FAILED org.eclipse.jetty.server.Server@187275d: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+2011.12.29 17:17:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 59d85090. [127.0.0.1]
+2011.12.29 17:17:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 59d85090. [127.0.0.1]
+2011.12.29 17:20:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 148736e4. [127.0.0.1]
+2011.12.29 17:20:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 148736e4. [127.0.0.1]
+2011.12.29 17:23:33 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 40e1c447. [127.0.0.1]
+2011.12.29 17:23:33 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 40e1c447. [127.0.0.1]
+2011.12.29 17:28:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6ffbcc4c. [127.0.0.1]
+2011.12.29 17:28:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6ffbcc4c. [127.0.0.1]
+2011.12.29 17:38:57 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 48776fcb. [127.0.0.1]
+2011.12.29 17:38:57 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 48776fcb. [127.0.0.1]
+2011.12.29 17:42:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f6c06633. [127.0.0.1]
+2011.12.29 17:42:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f6c06633. [127.0.0.1]
+2011.12.29 17:43:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f5a7fe43. [127.0.0.1]
+2011.12.29 17:43:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f5a7fe43. [127.0.0.1]
+2011.12.29 17:43:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6916c9b. [127.0.0.1]
+2011.12.29 17:43:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6916c9b. [127.0.0.1]
+2011.12.29 17:45:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6f784c9f. [127.0.0.1]
+2011.12.29 17:45:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6f784c9f. [127.0.0.1]
+2011.12.29 17:48:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3a90f7d6. [127.0.0.1]
+2011.12.29 18:00:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 440926f0. [127.0.0.1]
+2011.12.29 18:00:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 440926f0. [127.0.0.1]
+2011.12.29 18:01:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 68b9602. [127.0.0.1]
+2011.12.29 18:01:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 68b9602. [127.0.0.1]
+2011.12.29 18:02:02 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7ccf043e. [127.0.0.1]
+2011.12.29 18:02:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 754278db. [127.0.0.1]
+2011.12.29 18:02:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 53247fa2. [127.0.0.1]
+2011.12.29 18:07:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5f4fd5e5. [127.0.0.1]
+2011.12.29 18:07:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5f4fd5e5. [127.0.0.1]
+2011.12.29 20:51:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.29 20:53:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.29 21:21:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e80e70a1. [127.0.0.1]
+2011.12.29 21:21:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e80e70a1. [127.0.0.1]
+2011.12.29 22:36:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 9bf6b33c. [127.0.0.1]
+2011.12.29 23:51:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b81e7d98. [127.0.0.1]
+2011.12.30 00:46:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 00:49:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 05:44:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 05:47:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 05:55:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 05:57:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 07:35:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 08:17:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 08:20:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 08:37:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 10:36:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3394d99c. [127.0.0.1]
+2011.12.30 10:36:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3394d99c. [127.0.0.1]
+2011.12.30 10:36:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f4352f0b. [127.0.0.1]
+2011.12.30 10:36:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f4352f0b. [127.0.0.1]
+2011.12.30 10:54:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 70814994. [127.0.0.1]
+2011.12.30 11:18:10 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3abe0a05. [127.0.0.1]
+2011.12.30 11:55:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 36223cc6. [127.0.0.1]
+2011.12.30 11:57:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cdb794e3. [127.0.0.1]
+2011.12.30 11:57:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cdb794e3. [127.0.0.1]
+2011.12.30 13:55:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 14:00:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 14:01:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 17:46:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 17:49:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 20:53:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 21:23:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.30 21:26:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 03:23:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 04:11:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 05:47:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 05:48:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 05:50:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 09:25:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 11:58:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 12:01:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 17:59:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 19:51:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2011.12.31 20:15:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 01:12:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 01:15:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 03:42:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 03:44:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 05:51:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 05:54:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 06:07:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 08:49:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 08:51:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 09:28:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 09:31:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 09:46:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 09:48:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 10:42:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 10:44:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 11:00:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 19:31:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 19:34:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 22:36:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.01 22:39:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 01:50:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 03:31:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 03:33:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 07:09:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 07:10:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 08:24:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 08:27:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 08:59:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 09:01:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 09:37:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:04:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:07:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:25:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:27:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:36:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 11:38:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 12:39:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 14:15:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 14:17:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 17:16:47 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4199c6b1. [127.0.0.1]
+2012.01.02 18:48:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 18:53:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 18:55:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 22:17:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.02 22:19:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 00:08:44 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6a2538a2. [127.0.0.1]
+2012.01.03 00:09:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5832db6c. [127.0.0.1]
+2012.01.03 00:13:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 877c4c1f. [127.0.0.1]
+2012.01.03 00:13:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 877c4c1f. [127.0.0.1]
+2012.01.03 00:14:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6902ccd5. [127.0.0.1]
+2012.01.03 00:14:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6902ccd5. [127.0.0.1]
+2012.01.03 00:14:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2a77da9f. [127.0.0.1]
+2012.01.03 00:14:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2a77da9f. [127.0.0.1]
+2012.01.03 00:23:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d42d7011. [127.0.0.1]
+2012.01.03 00:35:18 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 49653b7f. [127.0.0.1]
+2012.01.03 00:51:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8752f279. [127.0.0.1]
+2012.01.03 00:51:04 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8752f279. [127.0.0.1]
+2012.01.03 00:51:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 34553efc. [127.0.0.1]
+2012.01.03 04:36:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 05:49:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 07:02:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 07:04:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 07:55:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 08:35:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 08:38:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 11:55:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 14:21:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 18:01:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cd951186. [127.0.0.1]
+2012.01.03 21:56:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 21:59:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 22:27:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 22:29:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.03 23:57:16 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4a92fc16. [127.0.0.1]
+2012.01.03 23:57:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 52b850c7. [127.0.0.1]
+2012.01.03 23:57:28 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 52b850c7. [127.0.0.1]
+2012.01.03 23:58:37 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 454c56f9. [127.0.0.1]
+2012.01.04 00:00:02 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6d117a67. [127.0.0.1]
+2012.01.04 02:46:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 02:49:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 03:50:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 03:52:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 06:00:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 06:13:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 06:15:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 06:16:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 06:18:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 08:45:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 09:08:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 09:10:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 09:22:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 09:24:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 10:08:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 11:12:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 13:41:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aa02a354. [127.0.0.1]
+2012.01.04 13:41:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aa02a354. [127.0.0.1]
+2012.01.04 14:03:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 16:53:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4124d2ed. [127.0.0.1]
+2012.01.04 16:53:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4124d2ed. [127.0.0.1]
+2012.01.04 18:12:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 74714b3. [127.0.0.1]
+2012.01.04 18:28:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: bed3a5f2. [127.0.0.1]
+2012.01.04 18:32:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 20:10:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.04 20:12:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.05 00:50:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.05 01:53:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.05 09:13:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.05 11:49:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3d415c54. [127.0.0.1]
+2012.01.05 11:49:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3d415c54. [127.0.0.1]
+2012.01.05 11:53:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d8eeba87. [127.0.0.1]
+2012.01.05 11:53:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d8eeba87. [127.0.0.1]
+2012.01.05 11:56:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f872019a. [127.0.0.1]
+2012.01.05 11:56:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f872019a. [127.0.0.1]
+2012.01.05 11:57:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 958c0836. [127.0.0.1]
+2012.01.05 11:57:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 958c0836. [127.0.0.1]
+2012.01.05 11:58:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ec0d6dfc. [127.0.0.1]
+2012.01.05 11:58:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ec0d6dfc. [127.0.0.1]
+2012.01.05 11:59:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b5c9be17. [127.0.0.1]
+2012.01.05 11:59:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b5c9be17. [127.0.0.1]
+2012.01.05 11:59:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 590c1b03. [127.0.0.1]
+2012.01.05 11:59:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 590c1b03. [127.0.0.1]
+2012.01.05 12:01:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d6aa6a81. [127.0.0.1]
+2012.01.05 12:01:45 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d6aa6a81. [127.0.0.1]
+2012.01.05 12:02:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fb631820. [127.0.0.1]
+2012.01.05 12:02:57 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fb631820. [127.0.0.1]
+2012.01.05 12:03:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5ebef342. [127.0.0.1]
+2012.01.05 12:03:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5ebef342. [127.0.0.1]
+2012.01.05 12:03:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5cb5a822. [127.0.0.1]
+2012.01.05 12:03:38 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5cb5a822. [127.0.0.1]
+2012.01.05 12:19:31 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 56e067ed. [127.0.0.1]
+2012.01.05 12:19:31 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 56e067ed. [127.0.0.1]
+2012.01.05 12:19:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 35b1303b. [127.0.0.1]
+2012.01.05 12:19:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 35b1303b. [127.0.0.1]
+2012.01.05 12:20:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6dca083f. [127.0.0.1]
+2012.01.05 12:20:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 6dca083f. [127.0.0.1]
+2012.01.05 12:21:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a7d498cc. [127.0.0.1]
+2012.01.05 12:21:40 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a7d498cc. [127.0.0.1]
+2012.01.05 12:21:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ca1ae054. [127.0.0.1]
+2012.01.05 12:21:49 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ca1ae054. [127.0.0.1]
+2012.01.05 12:36:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 73169c2a. [127.0.0.1]
+2012.01.05 12:36:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 73169c2a. [127.0.0.1]
+2012.01.05 12:37:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b82adb37. [127.0.0.1]
+2012.01.05 12:37:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b82adb37. [127.0.0.1]
+2012.01.05 12:41:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b6bc12c9. [127.0.0.1]
+2012.01.05 12:41:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b6bc12c9. [127.0.0.1]
+2012.01.05 12:41:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7aee4696. [127.0.0.1]
+2012.01.05 12:41:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7aee4696. [127.0.0.1]
+2012.01.05 12:41:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 20467f3b. [127.0.0.1]
+2012.01.05 12:41:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 20467f3b. [127.0.0.1]
+2012.01.05 12:53:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.05 13:03:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a34abd11. [127.0.0.1]
+2012.01.05 13:03:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a34abd11. [127.0.0.1]
+2012.01.05 13:03:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c29fb7e1. [127.0.0.1]
+2012.01.05 13:03:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c29fb7e1. [127.0.0.1]
+2012.01.05 13:04:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fd691e74. [127.0.0.1]
+2012.01.05 13:04:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fd691e74. [127.0.0.1]
+2012.01.05 13:04:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 730b2912. [127.0.0.1]
+2012.01.05 13:04:12 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 730b2912. [127.0.0.1]
+2012.01.05 13:04:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 17b0cdf6. [127.0.0.1]
+2012.01.05 13:07:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ede887b1. [127.0.0.1]
+2012.01.05 13:07:51 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ede887b1. [127.0.0.1]
+2012.01.05 13:12:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f0665c1d. [127.0.0.1]
+2012.01.05 13:12:34 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: f0665c1d. [127.0.0.1]
+2012.01.05 13:14:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1440dc0f. [127.0.0.1]
+2012.01.05 13:14:29 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: c8d28073. [127.0.0.1]
+2012.01.05 13:20:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dd84285b. [127.0.0.1]
+2012.01.05 13:20:05 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: dd84285b. [127.0.0.1]
+2012.01.05 13:26:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 650b5e58. [127.0.0.1]
+2012.01.05 13:26:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 650b5e58. [127.0.0.1]
+2012.01.05 13:26:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b9ced308. [127.0.0.1]
+2012.01.05 13:27:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2bb9d642. [127.0.0.1]
+2012.01.05 13:27:43 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 900b8da4. [127.0.0.1]
+2012.01.05 13:33:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 35ef1d7f. [127.0.0.1]
+2012.01.05 13:34:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d4f0fc43. [127.0.0.1]
+2012.01.05 13:34:59 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d4f0fc43. [127.0.0.1]
+2012.01.05 13:58:46 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4cbde4b1. [127.0.0.1]
+2012.01.05 14:42:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: cf900bda. [127.0.0.1]
+2012.01.05 15:48:22 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1bfbbf18. [127.0.0.1]
+2012.01.05 16:46:52 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a37b9851. [127.0.0.1]
+2012.01.05 16:47:41 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7cbad8b9. [127.0.0.1]
+2012.01.06 02:16:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: adbf840d. [127.0.0.1]
+2012.01.06 02:16:39 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: adbf840d. [127.0.0.1]
+2012.01.06 02:22:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3ad89b79. [127.0.0.1]
+2012.01.06 02:22:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3ad89b79. [127.0.0.1]
+2012.01.06 02:24:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aab72a6b. [127.0.0.1]
+2012.01.06 02:24:25 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: aab72a6b. [127.0.0.1]
+2012.01.06 02:37:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b18b387. [127.0.0.1]
+2012.01.06 02:37:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b18b387. [127.0.0.1]
+2012.01.06 02:41:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 44bacc3b. [127.0.0.1]
+2012.01.06 05:19:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 05:25:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 05:27:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 07:41:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 11:15:21 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: afb4bb2c. [127.0.0.1]
+2012.01.06 12:06:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a987f56e. [127.0.0.1]
+2012.01.06 12:06:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a987f56e. [127.0.0.1]
+2012.01.06 12:09:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: acea9d7c. [127.0.0.1]
+2012.01.06 12:09:14 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: acea9d7c. [127.0.0.1]
+2012.01.06 12:13:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7234700d. [127.0.0.1]
+2012.01.06 12:13:26 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7234700d. [127.0.0.1]
+2012.01.06 12:15:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5247d959. [127.0.0.1]
+2012.01.06 12:15:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5247d959. [127.0.0.1]
+2012.01.06 12:16:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7bcde120. [127.0.0.1]
+2012.01.06 12:16:06 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7bcde120. [127.0.0.1]
+2012.01.06 12:31:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ffdee9cc. [127.0.0.1]
+2012.01.06 12:31:42 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ffdee9cc. [127.0.0.1]
+2012.01.06 12:34:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b04e2fec. [127.0.0.1]
+2012.01.06 12:34:55 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b04e2fec. [127.0.0.1]
+2012.01.06 12:36:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a56ecc48. [127.0.0.1]
+2012.01.06 12:36:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a56ecc48. [127.0.0.1]
+2012.01.06 12:36:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 279e65b9. [127.0.0.1]
+2012.01.06 12:36:19 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 279e65b9. [127.0.0.1]
+2012.01.06 12:36:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b4e3bbe2. [127.0.0.1]
+2012.01.06 12:36:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b4e3bbe2. [127.0.0.1]
+2012.01.06 12:37:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: db9e0478. [127.0.0.1]
+2012.01.06 12:37:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: db9e0478. [127.0.0.1]
+2012.01.06 12:37:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5d5fe3b2. [127.0.0.1]
+2012.01.06 12:37:08 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 5d5fe3b2. [127.0.0.1]
+2012.01.06 12:43:01 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 41043d03. [127.0.0.1]
+2012.01.06 12:48:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 12:51:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 13:33:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 13:35:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.06 15:54:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.08 14:01:30 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.08 14:01:31 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.08 14:18:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.08 14:45:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3efafcf8. [127.0.0.1]
+2012.01.08 14:45:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 3efafcf8. [127.0.0.1]
+2012.01.08 14:46:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d0126aa7. [127.0.0.1]
+2012.01.08 14:46:07 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d0126aa7. [127.0.0.1]
+2012.01.08 14:46:09 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 2872180f. [127.0.0.1]
+2012.01.12 22:36:32 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.12 22:36:32 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.12 22:36:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 51345b60. [127.0.0.1]
+2012.01.12 22:36:54 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 51345b60. [127.0.0.1]
+2012.01.12 22:36:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.12 22:36:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.12 22:49:48 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8a654fd7. [127.0.0.1]
+2012.01.12 22:49:50 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 2333836844
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2012.01.12 22:49:50 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 2333836844
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2012.01.12 22:49:50 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 2333836844
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2012.01.12 22:49:50 org.jivesoftware.util.log.util.JettyLog - Error for /http-bind/
+java.lang.InternalError: Could not locate connection: 2333836844
+	at org.jivesoftware.openfire.http.HttpSession.getResponse(HttpSession.java:583)
+	at org.jivesoftware.openfire.http.HttpBindServlet.handleSessionRequest(HttpBindServlet.java:285)
+	at org.jivesoftware.openfire.http.HttpBindServlet.parseDocument(HttpBindServlet.java:168)
+	at org.jivesoftware.openfire.http.HttpBindServlet.doPost(HttpBindServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:530)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1216)
+	at org.eclipse.jetty.continuation.ContinuationFilter.doFilter(ContinuationFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1187)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:425)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:931)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:362)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:867)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:245)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:334)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:559)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.content(HttpConnection.java:1007)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:747)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.eclipse.jetty.server.HttpConnection.handle(HttpConnection.java:406)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:462)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:436)
+	at java.lang.Thread.run(Thread.java:636)
+2012.01.12 23:08:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.12 23:38:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.12 23:40:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 02:40:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 02:42:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 03:19:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 03:24:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 03:27:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 06:50:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 07:11:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 07:13:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 08:01:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 08:03:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 18:33:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 18:35:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 19:52:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.13 21:03:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 00:36:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 01:47:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 06:23:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 06:25:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 07:41:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 07:44:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 10:14:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 10:16:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 10:27:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 13:35:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 16:42:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 16:44:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 22:27:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.14 22:36:33 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.14 22:36:34 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.15 01:06:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 01:17:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 01:19:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 06:28:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 06:30:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 08:45:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 08:48:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 10:54:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 10:56:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 11:54:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 11:56:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 12:56:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 12:56:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 12:56:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 12:56:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 956befdf. [127.0.0.1]
+2012.01.15 12:56:24 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 956befdf. [127.0.0.1]
+2012.01.15 12:57:27 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: bff0e6db. [127.0.0.1]
+2012.01.15 13:40:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 13:42:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 19:51:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 20:19:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 20:21:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 21:20:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 21:22:16 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 21:40:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.15 21:42:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 03:54:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 05:34:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 06:55:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 06:57:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 06:57:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 11:39:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 14:01:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 16:22:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 16:29:52 org.jivesoftware.openfire.IQRouter - Error or result packet could not be delivered <iq type="result" id="disco3" from="cg9j34mxy9@conference.fermin" to="f9cd280e@fermin/f9cd280e"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="conference" name="cg9j34mxy9" type="text"/><feature var="http://jabber.org/protocol/muc"/><feature var="muc_public"/><feature var="muc_open"/><feature var="muc_unmoderated"/><feature var="muc_nonanonymous"/><feature var="muc_unsecured"/><feature var="muc_persistent"/><feature var="http://jabber.org/protocol/disco#info"/><x xmlns="jabber:x:data" type="result"><field var="FORM_TYPE" type="hidden"><value>http://jabber.org/protocol/muc#roominfo</value></field><field var="muc#roominfo_description" label="Description"><value>cg9j34mxy9</value></field><field var="muc#roominfo_subject" label="Subject"><value></value></field><field var="muc#roominfo_occupants" label="Number of occupants"><value>0</value></field><field var="x-muc#roominfo_creationdate" label="Creation date"><value>20120116T15:29:47</value></field></x></query></iq>
+2012.01.16 16:30:01 org.jivesoftware.openfire.IQRouter - Error or result packet could not be delivered <iq type="error" id="get1" to="f9cd280e@fermin/f9cd280e"><query xmlns="jabber:iq:privacy"><list name="ignore"/></query><error code="503" type="cancel"><service-unavailable xmlns="urn:ietf:params:xml:ns:xmpp-stanzas"/></error></iq>
+2012.01.16 21:24:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 21:26:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 22:36:34 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.16 22:36:35 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.16 22:52:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.16 23:27:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 00:55:45 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.17 00:55:45 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.17 00:57:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d345b7fc. [127.0.0.1]
+2012.01.17 01:01:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4d2e053b. [127.0.0.1]
+2012.01.17 01:01:15 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 4d2e053b. [127.0.0.1]
+2012.01.17 01:01:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: fa63cb90. [127.0.0.1]
+2012.01.17 01:03:23 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: e1f1e0d8. [127.0.0.1]
+2012.01.17 01:20:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 01:23:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 05:18:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 05:20:51 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 09:16:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 10:02:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 10:18:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 10:21:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 15:13:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 15:16:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 18:53:50 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 55dab558. [127.0.0.1]
+2012.01.17 19:27:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 19:29:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 19:49:07 org.jivesoftware.openfire.http.HttpSession - Packets could not be found for session af4b74eb cannot be delivered to client
+2012.01.17 20:37:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 20:39:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 21:02:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 21:05:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.17 21:13:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a51f470b. [127.0.0.1]
+2012.01.17 21:13:17 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: a51f470b. [127.0.0.1]
+2012.01.18 00:51:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 00:54:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 01:20:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 01:22:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 03:42:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 03:44:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 03:59:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 04:01:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 07:10:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 07:12:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 09:38:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 10:49:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 10:51:11 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 16:41:34 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 16:44:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 21:24:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.18 21:26:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 00:18:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 00:20:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 00:55:46 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.19 00:55:46 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.19 04:05:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 04:07:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 05:38:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 08:01:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 09:10:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 10:20:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 16:15:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 19:29:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 19:31:54 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 23:46:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.19 23:48:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 00:15:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 00:18:15 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 04:09:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 04:11:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 09:56:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 14:39:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 15:50:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 18:25:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 18:27:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 19:55:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 19:58:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 23:51:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.20 23:53:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 00:55:47 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.21 00:55:47 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.21 02:26:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 03:47:03 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 03:49:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 04:47:25 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 04:49:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 07:08:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 07:10:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 07:41:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 07:43:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 13:21:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 13:24:01 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 13:25:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 13:28:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 18:53:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 19:54:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 22:20:53 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8883f316. [127.0.0.1]
+2012.01.21 22:20:53 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8883f316. [127.0.0.1]
+2012.01.21 22:23:30 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: ac9982cb. [127.0.0.1]
+2012.01.21 22:23:36 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: d59f5096. [127.0.0.1]
+2012.01.21 22:52:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 22:54:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 23:21:57 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.21 23:42:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 1bf442bb. [127.0.0.1]
+2012.01.22 01:58:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 02:01:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 04:16:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 04:18:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 05:08:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 05:10:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 08:22:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 08:24:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 09:38:18 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 09:39:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 12:14:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 13:42:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 13:44:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 16:05:12 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 17:27:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 19:27:32 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.22 20:41:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 00:55:48 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.23 00:55:49 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.23 06:33:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 06:35:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 06:56:22 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 06:58:44 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 07:23:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 07:25:50 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 09:41:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 09:43:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 11:13:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 12:49:30 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 12:51:41 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 14:52:06 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 15:01:26 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 15:57:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 15:59:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 17:40:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 17:42:23 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 18:50:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 18:52:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 22:39:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 22:40:35 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 22:41:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.23 23:50:55 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 01:00:29 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 01:02:27 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 02:30:00 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 02:32:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 02:40:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 02:42:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 09:14:53 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 09:17:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 10:11:37 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 10:13:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 11:36:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 11:38:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 17:48:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 17:50:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 18:08:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 20:05:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 20:08:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 21:36:52 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.24 21:39:40 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 00:05:43 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 00:55:49 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.25 00:55:50 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.25 01:47:56 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 01:50:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 03:58:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 05:58:21 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 08:39:05 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 08:41:24 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 09:53:33 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 10:21:20 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 10:23:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 13:48:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 13:50:28 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 16:38:17 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 16:40:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 16:41:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 16:43:48 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 17:47:59 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 19:48:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 19:51:08 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 20:20:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 20:23:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 21:44:04 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.25 23:43:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 00:23:36 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 00:25:39 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 01:41:45 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 03:39:07 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 04:32:46 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 05:15:38 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 05:18:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 08:08:58 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 08:24:52 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 08:27:09 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 09:52:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 11:30:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 11:33:10 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 15:34:47 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 17:41:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 366641e4. [127.0.0.1]
+2012.01.26 17:53:31 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 17:55:49 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 19:20:42 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 19:23:13 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 19:23:19 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.26 20:44:00 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: b500044a. [127.0.0.1]
+2012.01.26 20:45:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: be9b4737. [127.0.0.1]
+2012.01.26 20:45:56 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: be9b4737. [127.0.0.1]
+2012.01.26 20:52:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 49680041. [127.0.0.1]
+2012.01.26 20:52:03 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 49680041. [127.0.0.1]
+2012.01.26 20:54:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7217be71. [127.0.0.1]
+2012.01.26 20:54:20 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 7217be71. [127.0.0.1]
+2012.01.26 20:54:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8e1488f3. [127.0.0.1]
+2012.01.26 20:54:58 org.jivesoftware.openfire.http.HttpBindServlet - Client provided invalid session: 8e1488f3. [127.0.0.1]
+2012.01.26 23:22:02 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.27 00:22:14 org.jivesoftware.util.log.util.JettyLog - HttpException(400,null,null)
+2012.01.27 00:55:51 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2012.01.27 00:55:51 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

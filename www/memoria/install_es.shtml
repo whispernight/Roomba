@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!--#include virtual="head_es.html" -->
+
+<div id="Content">
+
+<h2>Instalación</h2>
+
+<h3>Social Coding</h3>
+<p>En lugar de usar Sourceforge, decidimos utilizar Github por lo maravilloso que nos resulta el controlador de versiones Git y aprovechar nuestras cuentas ya creadas en esta comunidad. El proyecto está disponible y compilado en <a href="github.com/detaeye/roomba"> GitHub Roomba</a></p>
+
+<h3>Requisitos de instalación</h3>
+<p>Gran parte del funcionamiento de nuestro proyecto se debe al servidor de mensajería con el que se comunica nuestra versión adaptada del chat realizado en Javascript. Para ello hemos utilizado Openfire.</p>
+<p>Openfire es un sistema de mensajeria instantánea GPL programado en el lenguaje java. Funciona mediante el protocolo XMPP y te permite tener tu propio servidor de mensajeria con el que puedes administrar a tus usuarios, compartir archivos, auditar mensajes, mensajes offline, mensajes broadcast, grupos, etc.<p>
+
+<p><a href="http://www.igniterealtime.org/projects/openfire">Ver más información sobre Openfire</a></p>
+
+<p>Para hacer funcionar Openfire necesitábamos una máquina con conexión a internet. Openfire tiene la gran ventaja de ser multiplataforma (Windows, Linux, MacOS) pero nuestra intención era utilizar la misma máquina que pudiése servir después como servidor web y más. Para ello utilizamos una máquina 'olvidada' de unos de los integrantes del grupo. Se trata de un servidor con 1015MB de memoria RAM y un procesador AMD Athlon de 32 bits con una frecuencia de 1550MHz. Por comodidad utilizamos la distribución Ubuntu de GNU/Linux. Optamos por la última versión LTS (Long Term Support), es decir, la 10.04 (lucid). </p>
+
+<p>Cómo servidor web hemos optado por servidor HTTP Apache versión 2.0 junto con la versión PHP 5.0 y MySQL como sistema de gestión para las bases de datos. Con estas herramientas bien configuradas ya teníamos un entorno LAMP para desarrollar y poner en ejecucción nuestro proyecto.</p>
+
+<p><a href="http://httpd.apache.org/">Más información sobre Apache</a></p>
+<p><a href="http://www.php.net/">Más información sobre PHP</a></p>
+<p><a href="http://www.mysql.com/">Más información sobre MySQL</a></p>
+
+<h3>Cambios realizados en Openfire</h3>
+
+<p>Nos encontramos con un obstáculo en el servidor Openfire. Resulta que por algún motivo nuestra librería Javascript no le indicaba al servidor que una vez creado una sala de chat la aprobara (Openfire por defecto pide que alguien confirma las comunicaciones). Debido a que nuestro objetivo en el proyecto es que todo fuera sencillo y golpe de dos clicks decidimos que lo mejor sería modificar el código fuente del servidor. Para ello editamos la clase '' indicando que por defecto las clases debían aprobarse. Tras recompilar el servidor (no sin algunas complicaciones) todo funcionó como queríamos.</p>
+
+<p>No se alarme porque puede encontrar la versión de modificada Openfire ya compilada en<a href="github.com/detaeye/roomba"> GitHub Roomba</a></p>
+</div> 
+      
+<!--#include virtual="foot_es.html" -->
+
+</body>
+</html>
