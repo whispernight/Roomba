@@ -15,4 +15,4 @@ Visit the oficial page: http://www.eroomba.com
 
 Roomba is a chat designed to win in simplicity any other tool currently available. Just enter the web enter your nickname and chat! Talking with friends is as simple as sharing a link. You can use it on any platform, you just need a web browser with JavaScript!
 
-Roomba is created as a project for a university subject: Web aplication development. For the School of Computer Sciences at the Technical University of Madrid. There is a lot more information avaible about our project at: http://eroomba.com/memoria/index_en
+Roomba is created as a project for a university subject: Web aplication development. For the School of Computer Sciences at the Technical University of Madrid. There is a lot more information available about our project at: http://eroomba.com/memoria/index_en
