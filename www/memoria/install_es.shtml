@@ -28,7 +28,7 @@
 
 <h3>Cambios realizados en Openfire</h3>
 
-<p>Nos encontramos con un obstáculo en el servidor Openfire. Resulta que por algún motivo nuestra librería Javascript no le indicaba al servidor que una vez creado una sala de chat la aprobara (Openfire por defecto pide que alguien confirma las comunicaciones). Debido a que nuestro objetivo en el proyecto es que todo fuera sencillo y golpe de dos clicks decidimos que lo mejor sería modificar el código fuente del servidor. Para ello editamos la clase '' indicando que por defecto las clases debían aprobarse. Tras recompilar el servidor (no sin algunas complicaciones) todo funcionó como queríamos.</p>
+<p>Nos encontramos con un obstáculo en el servidor Openfire. Resulta que por algún motivo nuestra librería Javascript no le indicaba al servidor que una vez creado una sala de chat la aprobara (Openfire por defecto pide que alguien confirma las comunicaciones). Debido a que nuestro objetivo en el proyecto es que todo fuera sencillo y golpe de dos clicks decidimos que lo mejor sería modificar el código fuente del servidor. Para ello editamos la clase 'CreateMUCRoom' indicando que por defecto las clases debían aprobarse. Tras recompilar el servidor (no sin algunas complicaciones) todo funcionó como queríamos.</p>
 
 <p>No se alarme porque puede encontrar la versión de modificada Openfire ya compilada en<a href="github.com/detaeye/roomba"> GitHub Roomba</a></p>
 </div> 

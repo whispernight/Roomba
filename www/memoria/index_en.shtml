@@ -4,15 +4,38 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
    <!--#include virtual="head_en.html" -->
-      <div id="Content">
-
+<div id="Content">
 <h2>Description</h2>
 
-<p>
-       
-</p>
+<p><strong>Roomba</strong> is a chat designed for simplicity to win any other tool currently available. Just <a href="http://eroomba.com"> enter the web </a>, enter your nickname and chat! Talking with friends is as simple as sharing the link and you can use on any platform, so you only need a web browser with JavaScript </p>
 
-</div>
+<h3>Validation</h3>
+<p>site is validated according to W3C standards<a href="http://www.w3.org/">W3C</a> y <a href="http://validator.w3.org/check?uri=http://eroomba.com&charset=(detect+automatically)&doctype=Inline&group=0">the validator</a></p>
+
+<h3>We are social</h3>
+<p>We decided to introduce a small web 2.0 social aspect in the Roomba page. Visually is reduced to a header area in which to share a link to the chat room in social networks Facebook, Twitter and Google +. The advantage of this aspect is that it allows the user a link to your contact to get them all in the same room to discuss a specific topic, such as a football match is being played. No intention to reinvent the "wheel" we chose to use an iframe provided by <a href="www.addthis.com"> AddThis </a> website dedicated to providing iframe with different designs and code-sharing websites.</p>
+
+<p> Within our project aims to adapt our social trends of the Internet and new devices, we decided to include a QR code with the link of the room. This facilitates the sharing of these links when you have a mobile device. QR code we get through the href href="http://code.google.com/apis/chart/"> Google APIs </a>. </P>
+
+<h3> Paypal </h3>
+
+<p> Our project has a system of donations through PayPal. For relishing this option we benefit from <a href="https://www.paypal.com/es/cgi-bin/webscr?cmd=_donate-intro-outside"> PayPal service </a> that generates a code Javascript inserted into the web page siguendo few simple steps. To make a donation should only follow the donation button link in the header, feel free to use. </p>
+<h3>Our system has different ways of use, which are:</h3>
+<ol>
+<li>Server Admin</li>
+<p>The administrator of the machine where the server is installed Roomba should be concerned that Openfire does not exceed the limits of memory, or it will crash and will need to reboot. It is important to keep at bay the server, and that being developed in Java these situations are more common than expected and a system crash can be very uncomfortable for the users, the service would be detained indefinitely.</p>
+<li>Openfire Admin</li>
+<p>A server administrator can enter the Openfire configuration gateway through the port 9090, login with your username and password and configure the server. These options are very diverse, but most are already designed for the specific use of Roomba and need not touch them unless something goes wrong. In general, the administrator should use a gateway would give this to create chat rooms with special settings (such as adding password protection), create and book special user names, ban to potential attackers and to some remote location to change the ports Openfire uses.</p>
+<li>Room moderator</li>
+<p>When a user accesses the cover of Roomba automatically creates a chat room for him. Similarly, the user becomes the moderator of it. Since that time other users can join the room, but only their creator has permission to drive regular users or silence. This goes a bit against the philosophy of free use of Roomba, but we think it is necessary to ensure that users can chat with the confidence of having complete control over your conversations.</p>
+<li>Common user</li>
+<p>In general, the user enters Roomba invited by someone who has created a room and can chat with users that there are connected. You can also open private conversations with people who are in the room, but can not eject anyone. You will, though, able to invite other users, as access to a room is free.</p>
+</ol>
+
+<h3>Has been used in a company!</h3>
+
+<p>During the testing phase of the project, we had the opportunity to provide services to the company <a href="http://www.grupoleben.com">Grupo Leben</a>. This company had the need to establish a communication service between a team of Marketing (5 people) and another person living in Brazil. The limited service discipline Microsoft Messenger instant messaging and complaints about the slowness of Skype by the team, led us to propose Roomba as a lightweight alternative and effective. The experience was a success, allowed us to customize certain aspects of the interface and fix several bugs that had not yet lozalizado. For its part the Marketing team was satisfied with the alternative. They appreciated the simplicity and fluidity of Roomba. </p>
+</div> 
       
 <!--#include virtual="foot_en.html" -->
 

@@ -69,6 +69,7 @@
 					<option value="de" <? if ($_GET["lang"] == "de") echo 'selected="selected"' ?>>{{german}}</option>
 					<option value="nl" <? if ($_GET["lang"] == "nl") echo 'selected="selected"' ?>>{{nederlands}}</option>
 					<option value="cn" <? if ($_GET["lang"] == "cn") echo 'selected="selected"' ?>>{{chinese}}</option>
+					<option value="ja" <? if ($_GET["lang"] == "ja") echo 'selected="selected"' ?>>{{japanese}}</option>
 				</select>
 			</div>
 			<!-- AddThis Button BEGIN -->
@@ -79,7 +80,7 @@
 			</div>
 			<!-- AddThis Button END -->		
 		</div>
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donacion">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donacion" target="_blank">
 			<input type="hidden" name="cmd" value="_donations">
 			<input type="hidden" name="business" value="jelle.jdc@gmail.com">
 			<input type="hidden" name="lc" value="ES">

@@ -8,10 +8,15 @@
 
 <h2>License</h2>
 
-<p>
-       
-</p>
+<p>Candy Javascript library is released under the MIT License. This license allows software reuse this license for free software so as to be non-free software, allowing changes not to release the original program. It also allows changes to the GPL license, or whatever compatible (ie comply with the terms of distribution). <a href="http://www.opensource.org/licenses/MIT">More information</a> </p>
 
+<p> other hand, our server XMPP, Openfire, is released under the Apache License 2.0. This free software license created by the Apache Software Foundation (ASF). This license requires the preservation of the copyright notice and disclaimer, ie does not require derivative works (modified versions) of the software is distributed using the same license, or even that must be distributed as free software / open source. The Apache license requires maintaining only a story that informs the recipient that the distribution has been used with the Apache License Code.  <a href="http://www.opensource.org/licenses/Apache-2.0">More information </a> </p>
+
+<p> For our part, we have also decided to distribute our latest project under this license. We chose this license because we are more flexible than the famous MIT license or GPL, GNU Public License. </p>
+
+<h2>Licensing contents </h2>
+
+<p> Since this is an anonymous chat freely accessible to anyone with an internet connection (in case of censorship, not by us) have not considered necessary licenses or protections that exceed common sense should applying any person who surfs the Internet. </p>
 </div>
       
 <!--#include virtual="foot_en.html" -->

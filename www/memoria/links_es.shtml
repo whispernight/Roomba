@@ -11,6 +11,8 @@
 
 <p>
 <ul>
+<li><a href="http://www.eroomba.com">Página oficial Roomba</a></li>
+<li>Proyecto en GitHub de <a href="https://github.com/detaeye/Roomba">Roomba</a></li>
 <li><a href="http://candy-chat.github.com/candy/">Candy</a>, implementación en JavaScript de un chat sobre XMPP</li>
 <li><a href="http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol">Protocolo XMPP</a> en Wikipedia</li>
 <li>Detalles de la implementación <a href="http://xmpp.org/extensions/xep-0124.html">XEP-124</a> en la web del XMPP Standards Foundation</li>
@@ -19,6 +21,8 @@
 <li><a href="http://www.grupoleben.com/">Grupo Leben</a>, empresa pionera en el uso de Roomba en un entorno profesional</li>
 <li><a href="http://www.igniterealtime.org/projects/openfire/">Openfire</a>, servidor de Jabber (protocolo XMPP) en Java de código libre</li>
 <li>La tecnología <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a> en Wikipedia</li>
+<li><a href="http://docs.jquery.com/Main_Page">Documentación oficial jQuery</a></li>
+<li><a href="http://www.w3schools.com/w3c/default.asp">w3schools</a> documentación sobre HTML/XML/CSS/PHP/...</li>
 </ul>
 </p>
 </div> 

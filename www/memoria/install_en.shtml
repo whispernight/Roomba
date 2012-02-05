@@ -4,14 +4,33 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
    <!--#include virtual="head_en.html" -->
-      <div id="Content">
 
-<h2>Installation</h2>
+<div id="Content">
 
-<p>
-       
-</p>
+<h2>installation</h2>
 
+<h3>Social Coding</h3>
+<p>Instead of using Sourceforge, Github decided to use it wonderful that we find the Git version control and build on our already created accounts in this community. The project is available and compiled in <a href="github.com/detaeye/roomba"> GitHub Roomba</a></p>
+
+<h3>Requisitos de instalación</h3>
+<p>Much of the operation of our project is due to the messaging server that communicates with the adapted version of our chat done in Javascript. For this we used Openfire.</p>
+<p>Openfire is a GPL instant messaging system programmed in the Java language. XMPP protocol works by allowing you to have your own messaging server with which you can manage your users, share files, audit messages, offline messages, broadcast messages, groups, etc..<p>
+
+<p><a href="http://www.igniterealtime.org/projects/openfire">More information about Openfire</a></p>
+
+<p>Openfire needed to operate a machine with Internet connection. Openfire has the great advantage of being cross-platform (Windows, Linux, MacOS), but our intention was to use the same machine that could serve later as a Web server and more. We use a machine 'forgotten' about the group members. This is a server with 1015MB of RAM and an AMD Athlon 32-bit with a frequency of 1550MHz. For convenience we use the Ubuntu distribution of GNU / Linux. We opted for the latest LTS (Long Term Support), ie 10.04 (lucid).</p>
+
+<p>How we have chosen Web server Apache 2.0 HTTP server with PHP version 5.0 and MySQL as a management system for databases. With these tools we already have properly configured a LAMP environment to develop and implement ejecucción our project.</p>
+
+<p><a href="http://httpd.apache.org/">More information about Apache</a></p>
+<p><a href="http://www.php.net/">More information about PHP</a></p>
+<p><a href="http://www.mysql.com/">More information about MySQL</a></p>
+
+<h3>Changes made in Openfire</h3>
+
+<p>We encountered an obstacle in the Openfire server. It turns out that for some reason our Javascript library to the server told him that once created a chat room the adoption (default Openfire ask someone confirms communications). Because our goal in this project is that everything was simple and hit two clicks decided it best to modify the source code from the server. To do this edit the class 'CreateMUCRoom' indicating that default should be approved classes. After recompiling the server (not without some complications) everything worked as we wanted.</p>
+
+<p>Do not be alarmed because you can find the modified version of Openfire and compiled in<a href="github.com/detaeye/roomba"> GitHub Roomba</a></p>
 </div>
       
 	<!--#include virtual="foot_en.html" -->
